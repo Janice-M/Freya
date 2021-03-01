@@ -1,6 +1,6 @@
 {
 "name": "Top Posts Viewer",
 "version": "1.0",
-"description": "Launch a new tab with top posts from any subreddit.",
+"description": "Launch a new tab with top posts from any subreddit on reddit.",
 "manifest_version": 2
 }
