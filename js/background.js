@@ -8,6 +8,7 @@ chrome.contextMenus.create ({
 });
 
 function openTab(){
+
     return function (info, tab){
 
         let text = info.selectionText;
@@ -16,5 +17,17 @@ function openTab(){
         chrome.tabs.create ({index: tab.index + 1, url: redditLink, 
             selected: true});
 
+    }
+};
+
+function format (subName){
+
+    if (subName [0] === "r" && subName [1] === "/"){
+
+        return subName
+
+    }
+    else {
+        return "r/" + subName
     }
 };
