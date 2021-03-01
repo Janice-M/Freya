@@ -10,6 +10,11 @@ chrome.contextMenus.create ({
 function openTab(){
     return function (info, tab){
 
-        let text = info.se
+        let text = info.selectionText;
+        let redditLink = "https://www.reddit.com/" + format(text) +     
+        "/top/?t=all" 
+        chrome.tabs.create ({index: tab.index + 1, url: redditLink, 
+            selected: true});
+
     }
-}
+};
