@@ -1,0 +1,4 @@
+"manifest_version" : 2,
+"name": "Top Posts Viewer",
+"version": "1.0",
+"description": "Launch a new tab with top posts from any subreddit.",
