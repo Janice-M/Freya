@@ -1,6 +1,6 @@
 # Freya
 
 
-## subreddit chrome extension that shows top posts of all time in a subreddit
+## Launch a new tab with top posts from any subreddit on reddit.
 
 ![reddit](images/icon.png)
